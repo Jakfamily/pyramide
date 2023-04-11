@@ -8,5 +8,6 @@ birth_years = current_years - age #defini annee de naissance = annee actuelle - 
 
 age.times do |i|
     year_age = current_years - birth_years - i # defini age = annee actuelle - annee de naissance - iteration 
+    
     puts "Il y a #{year_age} ans, tu avais #{i} ans"
 end

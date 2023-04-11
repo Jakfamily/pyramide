@@ -1,4 +1,7 @@
 puts "quelle est votre annee de naissance"
+
 user_dayOfBirth = gets.chomp.to_i
+
 year = 100
-puts "Dans 100 ans on seras en #{user_dayOfBirth + year}"
+
+puts "En #{user_dayOfBirth + year} tu auras 100 ans "
