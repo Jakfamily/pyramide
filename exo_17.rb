@@ -4,10 +4,15 @@ numbers_of_floors = gets.chomp.to_i
 
 if numbers_of_floors >= 1 && numbers_of_floors <= 26
     
-    1.upto(numbers_of_floors) do |i| # premier iterateur pour le nombre de ligne afficher 
-    (numbers_of_floors - i).times {print " "} # ajoute de lespace en fonction de literation de letage 
-    i.times { print "#"} # la seconde pour le nombre de # a afficher 
-    (i - 1).times {print "#"} # 
+  # Boucle sur chaque étage de la pyramide, de haut en bas
+  1.upto(numbers_of_floors) do |i| 
+    # Affiche les espaces nécessaires pour centrer le dièse à chaque étage
+    (numbers_of_floors - i).times {print " "} 
+    # Affiche les dièses pour la première moitié de l'étage
+    i.times { print "#"}
+    # Affiche les dièses pour la seconde moitié de l'étage
+    (i - 1).times {print "#"} 
+    # Passe à la ligne suivante pour passer à l'étage suivant
      puts
     end
 else   
