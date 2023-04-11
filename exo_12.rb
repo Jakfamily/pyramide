@@ -14,7 +14,7 @@ age.times do |i|
 
     y = age - x # on defini y = l'age - x
   
-    if x == y # si x==y compare les deuc variable
+    if x == y # si x==y compare les deux variable
       puts "Il y a #{x} ans, tu avais la moitié de l'âge que tu as aujourd'hui"
     else
       puts "Il y a #{x} ans, tu avais #{y} ans"
