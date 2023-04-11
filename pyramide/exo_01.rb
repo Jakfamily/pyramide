@@ -1,2 +1,0 @@
-puts "bonjour, monde
-"
